@@ -1,6 +1,13 @@
 {
-  "name": "root",
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bangsil <qkdtlf89089@gmail.com>",
+  "license": "MIT",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^3.20.2"
   }
